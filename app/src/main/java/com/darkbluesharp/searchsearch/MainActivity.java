@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebSettings webSettings = webView.getSettings(); //websetting은 캐시, 자바스크립트 등의 기능 설정
         webSettings.setAppCacheEnabled(true);
+        webSettings.setJavaScriptEnabled(true);
 
         //키보드 감추기
         try {
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebSettings webSettings2 = webView2.getSettings(); //websetting은 캐시, 자바스크립트 등의 기능 설정
         webSettings2.setAppCacheEnabled(true);
+        webSettings.setJavaScriptEnabled(true);
 
 
         webView2.setWebViewClient(new WebViewClient() { //새 창이 뜨는것을 방지

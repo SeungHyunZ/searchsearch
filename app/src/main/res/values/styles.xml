@@ -10,4 +10,20 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme.BlueRipple">
+        <item name="colorControlHighlight">#0073FF</item>
+    </style>
+
+    <style name="AppTheme.B2">
+        <item name="colorControlHighlight">#C14CD6</item>
+    </style>
+
+    <style name="AppTheme.B3">
+        <item name="colorControlHighlight">#00FF2A</item>
+    </style>
+
+    <style name="AppTheme.B4">
+        <item name="colorControlHighlight">#00FFAE</item>
+    </style>
+
 </resources>
